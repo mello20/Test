@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: rgb(15, 15, 15);
+  height: 85px;
+
+
+}
+.logo{
+    width: 16%;
+    float: left;
+    top: 10px;
+   font-size: 14px;
+    margin-right: 50px;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: rgb(68, 33, 68);
+    text-align: center;
+}
+
+.number{
+    width: 16%;
+    float: left;
+    top: 10px;
+    border-right: 2px solid white;
+    color: #ffffff;
+    margin-left: 150px;
+}
+
+.address{
+    width: 16%;
+    float: left;
+    top: 10px;
+    border-right: 2px solid white;
+    color: #ffffff;
+    padding: 0px 10px 0px 10px;
+}
+
+.socials{
+    width: 16%;
+    float: left;
+    color: #ffffff;
+
+}
+
+.nav-bar{
+    padding: 20px;
+    margin: 0;
+    font-size:10px;
+    margin: auto;
+    background-color: rgb(68, 33, 68);
+}
+ul{
+    padding: 0%;
+    list-style-type: none;
+    margin-left: 100px;
+
+}
+li{
+    display: inline;
+
+
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 20px;
+
+
+}
+a:hover{
+    color:  #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+    border:none
+}
+.head-img{
+    width: 100%;
+    position: relative;
+}
+.img-text{
+    position: absolute;
+    top: 480px;
+    left: 50px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.img-text p{
+    background-color: #ffffff8a;
+    color: blue;
+    text-align: center;
+    width: 15%;
+    padding: 5px;
+}
+
+.img-text h1{
+    background-color: #0000009f;
+    text-align: center;
+    padding: 5px;
+
+}
+.after{
+    background-color: #442144;
+    height: 150px;
+    padding: 20px;
+    color: #ffffff;
+    overflow: hidden;
+    text-align: left;
+    font-family: sans-serif;
+    font-size:15px ;
+}
+
+.customer{
+
+    display:flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   justify-items: center; 
+   margin: auto;
+   text-align: left;
+   font-size: medium;
+   padding: 25px;
+}
+button{
+    background-color:#028651 ;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+}
+
+.customer p{
+     width: 70%;
+}
+
+.footer-img {
+    position: relative;
+}
+.footer-img p{
+    position: absolute;
+    top: 60px;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-left: 50px ;
+}
+

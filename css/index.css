@@ -1,0 +1,516 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+     /* position: fixed;
+    right: 0;
+    left: 0;
+   height: 150px; */
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   justify-items: center; 
+   overflow-x: hidden;
+ 
+}
+ul{
+    padding: 0%;
+    list-style-type: none;
+   
+
+}
+li{
+    display: inline;
+
+
+}
+a{
+    color: #1b1b1b;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 20px;
+
+
+}
+ a:hover{
+    color:  #6287ff;
+    background-color: #ffffff;
+    cursor: pointer;
+    border:none
+} 
+
+.Main{
+    z-index: -1;
+    clear: both;
+    
+}
+.column{
+    height: 400px;
+    width: 50%;
+    float: left;
+    background-color: #000a42;
+}
+
+.broad-img img{
+    width: 50%;
+    float: right;
+    height: 400px;
+}
+
+ .text-column{
+    color: #ffffff;
+    padding: 20px;
+    padding-top: 0;
+    margin-left: 20px;
+   
+    
+}
+
+.text-column h1{
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.text-column p{
+    width: 80%;
+    text-align: left;
+    padding: 5px;
+    font-size: large;
+}   
+.text-column button {
+    border-radius: 4px;
+    background-color: #0068bd;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+  
+.text-column button:hover {opacity: 1}
+
+/* .text-column button{
+     padding: 8px;
+     border-radius: 4px;
+     border: none;
+     color: #ffffff;
+     background-color: #0075d4;
+     font-size: large;
+     margin: 5px;
+}
+
+
+.text-column button:hover{
+  background-color: #ffffff ;
+  color: #0075d4;
+    cursor: pointer;
+    transition: ease-in;
+}  */
+
+.broad{
+   overflow: hidden;
+}
+
+.sub-head{
+  
+   margin-top: 40px;
+}
+.sub-head h1{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+.sub-head h1::after{
+    content: "";
+    position: absolute;
+    display: block;
+    border-radius: 5px;
+    margin: 10px;
+    height: 5px;
+    width: 8%;
+    background-color:  #000a42;
+    left: 45%;
+} 
+
+.sub-text{
+text-align: center;
+color: #999898;
+font-size: 20px;
+margin: 25px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   justify-items: center; 
+   width: 70%;
+   margin: auto;
+   margin-top: 80px;
+}
+
+.flex h1{
+    color: #6287ff;
+    font-size: xx-large;
+   
+}
+
+.flex p{
+    font-size: x-large;
+    text-align: center;
+}
+
+.flex-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   justify-items: center; 
+   width: 80%;
+   margin-left: 70px;
+  margin-right: 20px;
+   padding: 15px;
+ 
+}
+
+.flex-two  div{
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+.flex-two h1{
+    text-align: center;
+    color: #6287ff;
+    font-size: large;
+}
+
+.flex-three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   justify-items: center; 
+   width: 80%;
+  margin-left: 80px;
+  margin-right: 20px;
+   padding: 5px;
+}
+
+.flex-three  div{
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+.flex-three h1{
+    text-align: center;
+    color: #6287ff;
+    font-size: large;
+}
+
+
+
+.study{
+    background: url(../images/mountains_night_clouds_peaks_120300_1920x1080.jpg) ;
+    /* background-color: #cecbcbcc; */
+    height: 750px;
+   
+}
+  
+/* .antro:hover + view {
+    display: block;
+} */
+.pro-head h1::after{
+    content: "";
+    position: absolute;
+    display: block;
+    margin: 10px;
+    height: 5px;
+    width: 8%;
+    background-color:  #ffffff;
+    left: 45%;
+}
+.pro-head h1{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+.about-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   justify-items: center; 
+   width: 90%;
+   margin: auto;
+   padding: 5px;
+   margin-top: 50px;
+}
+.head h1::after{
+    content: "";
+    position: absolute;
+    display: block;
+    margin: 10px;
+    height: 5px;
+    width: 8%;
+    background-color:  #000a42;
+    left: 5%;
+} 
+
+.head{
+    width: 56%; 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: left;
+    font-size: x-large;
+}
+.info p{
+    width: 90%;
+    color: #999898;
+
+}
+.info button{
+    background-color: #ffffff;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+.info button:hover{
+    background-color: #6287ff;
+    border: 1px solid #6287ff;
+    color: #ffffff;
+   cursor: pointer;
+}
+
+.bill-board{
+    background: url(../images/library_00.jpg) no-repeat ;
+    /* background-color: #cecbcbcc; */
+    height: 300px;
+   
+   
+}
+.bill{
+    
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.bill h1{
+    margin-top: 30px;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+.bill button{
+    background-color: #6287ff;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.bill button:hover{
+    background-color:#ffffff ;
+    color: #6287ff;
+   cursor: pointer;
+}
+
+.split h1{
+    color: #6287ff;
+    font-size: xx-large;
+   
+}
+
+.split p{
+    font-size: x-large;
+    text-align: center;
+}
+
+.split-two h1{
+    color: #6287ff;
+    font-size: xx-large;
+   
+}
+
+.split-two p{
+    font-size: x-large;
+    text-align: center;
+}
+
+.slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   justify-items: center; 
+   width: 80%;
+   margin: auto;
+   padding: 5px;
+  
+}
+
+.split{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   justify-items: center; 
+   width: 40%;
+   margin: 0;
+   
+   
+}
+
+.split-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   justify-items: center; 
+   width: 40%;
+   margin: 0;
+  
+   
+}
+
+.antro-button {
+   
+    display: none;
+}
+.antro-button:hover{
+    display: inline-block;
+    background-color: #6287ff;
+    border: 1px solid #6287ff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+   cursor: pointer;
+} 
+
+.maths button {
+   
+    display: none;
+}
+.maths button:hover{
+    display: block;
+    background-color: #6287ff;
+    border: 1px solid #6287ff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+   cursor: pointer;
+} 
+
+.phy button {
+   
+    display: none;
+}
+.phy button:hover{
+    display: block;
+    background-color: #6287ff;
+    border: 1px solid #6287ff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+   cursor: pointer;
+}  
+
+.pro button {
+   
+    display: none;
+}
+.pro button:hover{
+    display: block;
+    background-color: #6287ff;
+    border: 1px solid #6287ff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+   cursor: pointer;
+} 
+
+.album{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-items: center; 
+   margin: 0;
+   padding: 0;
+  
+}
+
+.album-two{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-items: center; 
+   margin: 0;
+   padding: 0;
+
+}
+
+.pro:hover{
+    opacity: 0.6;
+} 
+
+.Team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   justify-items: center; 
+   width: 80%;
+   margin-left: 70px;
+   margin-right: 20px;
+ 
+}
+
+.Team img{
+    border-radius: 7px;
+    margin: 15px;
+}
+
+.Team h1{
+    color: #6287ff;
+    text-align: left;
+    margin: 0;
+}
+.Team p{
+    color: #7c7b7b;
+    text-align: left;
+    margin: 0;
+}
+
+/* .talks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   justify-items: center; 
+   width: 60%;
+   margin-left: 70px;
+   margin-right: 20px;
+ 
+} */
+.head-talks{
+    background: url(../images/library_00.jpg) no-repeat ;
+    height: 200px;
+}

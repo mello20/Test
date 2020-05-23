@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+#main{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/menu-chefstable-v2.8b48edf2.jpg);
+    background-size: cover;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 60px;
+    background-color: #0005;
+    line-height: 70px;
+    
+
+}
+.logo{
+    margin-left: 90px;
+    float: left;
+    color: #ffffff;
+    width: 25%;
+    font-size: 10px;
+}
+
+.nav-bar ul{
+    overflow: hidden;
+    float:  right;
+    margin-right: 30px;
+}
+.nav-bar ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+   
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 30px;
+
+}
+
+.nav-bar ul li:hover{
+background-color: #f39d1a;
+height: 60px;
+
+}
+
+.top-two-text{
+  clear: both ;
+  margin: 0;
+  padding: 0;
+  text-align: center; 
+  color: #ffffff;
+}
+
+.top-two-text h1{
+    margin: 0;
+    padding: 0;
+}
+.top-two-text h2{
+    margin: 0;
+    padding: 0;
+    color:#daa520;
+
+}
+
+.top-two-text p{
+    margin: auto;
+    padding: 0;
+  width: 50%;
+ 
+}
+
+button{
+    background-color:#daa520;
+    border: none;
+    border-radius: 4px;
+    padding: 7px;
+    margin: 5px;
+}
+
+button:hover{
+    background-color:#000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 7px;
+    margin: 5px;
+}
+
+.history{
+    display: flex;
+    width:80%;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   justify-items: center; 
+   margin: auto;
+   margin-top: 40px;
+   padding: 10px;
+}
+
+.history-text{
+    font-size: 15px;
+    width: 60%;
+    margin: 5px;
+    padding: 5px;
+    line-height: 30px;
+}
+
+.history-text h3{
+  padding: 5px;
+  font-weight: lighter;
+}
+
+.history-text h1{
+    padding: 5px;
+  
+}
+.history-text p{
+    padding: 10px;
+  
+}
+
+.level{
+    width: 77%;
+    margin: auto;
+    background-color: #daa520;
+}
+
+.level h1{
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    font-weight: lighter;
+    font-size: 25px;
+
+}
+
+.level button{
+    color: #000000;
+    background-color: #ffffff;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.flex{
+   
+        display: flex;
+        flex-direction: row;
+       align-items: center;
+       justify-items: center; 
+       width: 80%;
+       margin: auto;
+     
+     
+  
+}
+  
+.page{
+    margin-top: 35px;
+    
+  
+}
+
+.page h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.page h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    border-radius: 5px;
+    margin: 10px;
+    height: 3px;
+    width: 5%;
+    background-color:  #daa520;
+    left: 45%;
+} 
+.flex{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight:lighter;
+}
+
+.flex h1{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.flex-2{
+   
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-items: center; 
+   width: 80%;
+   margin: auto;
+
+}
+
+.flex-2 div{
+    padding: 5px;
+
+}
+
+.flee{
+    margin-top: 30px;
+}
+.flee img{
+    position: relative;
+}
+
+.flee p{
+    position: absolute;
+   top: 1657px;
+   color: #ffffff;
+   background-color: #0009;
+   padding: 8px;
+}
+
+.fleek img{
+    position: relative;
+}
+
+.fleek p{
+    position: absolute;
+   top: 1820px;
+   color: #ffffff;
+   background-color: #0009;
+   padding: 8px;
+}
+
+.class{
+    margin-top: 100px;
+    
+  
+}
+
+.page-2 h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.page-2 h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    border-radius: 3px;
+    margin: 10px;
+    height: 3px;
+    width: 5%;
+    background-color:  #daa520;
+    left: 45%;
+} 
+.staff{
+    margin-top:50px;
+    width: 100%;
+    height: 47vh;
+    background-image: url(../images/1005047882-Chef-Lizette-11-e1544544046699.jpg);
+    background-size: cover;
+}
+.pro-staff{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+ 
+}
+
+.pro-staff h1{
+margin-top: 35px;
+font-size: 20px;
+padding: 20px;
+}
+
+.pro-staff p{
+ width: 60%;
+ margin: auto;
+ font-size: 15px;
+ padding: 15px;
+ font-family: sans-serif;
+}
+      
+.pro-staff h2 {
+    font-size: 15px;
+    padding: 5px;
+    color: #f39d1a;
+    padding: 10px;
+
+}
+
+.pro-staff h3 {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.pass img{
+    border-radius: 3px;
+}
+
+.chef-staff{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-items: center; 
+   width: 60%;
+   margin: auto;
+}
+
+.chefs img{
+    width: 80%;
+    border-radius: 50%;
+    
+    
+}
+
+.chef{
+    margin-top: 100px;
+}
+
+.chef h1{
+    text-align: center;
+}
+
+.chef-staff{
+    margin-top: 40px;
+}
+
+.chefs{
+    text-align: center ;
+   
+}
+
+.chefs h1{
+font-size: 15px;
+}
+
+.chefs p{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.chefs button{
+    color: #ffffff;
+    background-color: #000000;
+  
+}
+
+.chefs button:hover{
+    color: #000000;
+    background-color: #ffffff;
+  
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-items: center; 
+   width: 80%;
+   margin: auto;
+  
+}
+
+.click{
+    margin-top: 50px;
+    color: #ffffff;
+    background-color: #daa520;
+   
+}
+
+.stage{
+    font-size: 13px;
+    padding: 10px;
+    margin: 0;
+}
+
+.stage h1{
+    font-size: 13px;
+    padding: 5px;
+}
+
+.stage p{
+    width: 80%;
+    padding: 5px;
+}
+
+.stage ul li {
+    list-style-type: none;
+}
+
+.stage li{
+    padding: 3px;
+    
+}
+
+
+      
+   
+  
+
+
+
